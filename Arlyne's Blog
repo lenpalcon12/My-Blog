@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- header start -->
+        <div id="header" class="section">
+            <img alt="" class="img-circle" src="https://code.sololearn.com/Icons/Avatars/8056480.jpg">
+            <p>Arlyne Palcon</p>
+        </div>
+        <!-- header end -->
+        
+        <!-- About Me section start -->
+        <div class="section">
+            <h1><span>About Me</span></h1>
+            <p>
+               Hey! I'm <strong>Arlyne!</strong>
+               <br />An aspiring web developer & designer. Learning to code to be the kind of designer developers will love. Studies in different online platforms to improve my skills in programming.
+            </p>
+            <p class="quote">"Everyone should learn how to code, because it teaches you how to think. - Steve Jobs"</p>
+        </div>
+        <!-- About Me section end -->
+        
+        <!-- My Schedule section start -->
+        <div class="section">
+            <h1><span>My Coding Schedule</span></h1>
+            <table>
+                <tr>
+                    <td>8am-12nn</td>
+                    <td class="selected">Do Office Work</td>
+                    <td>12nn-1pm</td>
+                    <td class="selected">Go to Lunch</td>
+                 <tr>    
+                    <td>1pm-3pm</td>
+                    <td class="selected">Learn, Practice, Code</td>
+                    <td>3pm-530pm</td>
+                    <td class="selected">Wrap up for the day</td>
+                </tr>
+                <tr>
+                    <td>6pm-7pm</td>
+                    <td class="selected">Catch a ride home</td>
+                    <td>8pm-9pm</td>
+                    <td class="selected">Refresh coding lessons</td>
+                </tr>
+            </table>
+        </div>
+        <!-- My Schedule section end -->
+        
+        
+        <!-- My Skills section start -->
+        <div class="section">
+            <h1><span>My Skills</span></h1>
+            <ul>
+                <li>HTML & CSS<br />
+                    <progress min="0" max="100" value="80"></progress>80%
+                </li>
+                <li>jquery & JavaScript <br />
+                    <progress min="0" max="100" value="65"></progress>65%
+                </li>
+                <li>PHP, mySQL <br />
+                    <progress min="0" max="100" value="70"></progress>70%
+                </li>
+                <li>Business Process Management<br />
+                    <progress min="0" max="100" value="70"></progress>70%
+                </li>
+                <li>Web Development <br />
+                    <progress min="0" max="100" value="80"></progress>80%
+                </li>
+            </ul>
+        </div>
+        <!-- My Skills section end -->
+        
+        
+         <!-- Media section start -->
+        <div class="section">
+            <h1><span>Where I Learned This</span></h1>
+            <iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0"></iframe>
+        </div>
+        <!-- Media section end -->
+        
+        <!-- Form section start -->
+       <div class="section">
+            <h1><span>Contact Me</span></h1>
+            
+            <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+                <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="30" cy="30" r="5" fill="#000000"/>
+                <circle cx="70" cy="30" r="5" fill="#000000"/>
+                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+            </svg>
+                 
+            <form>
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" required ></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <!-- Form section end -->
+        
+        <!-- Contacts section start -->
+        <div class="section" id="contacts">
+            <h1><span>Follow Me</span></h1>
+            <div>
+                <a href="https://www.sololearn.com/" target="_blank">
+                    <img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
+                </a>
+                <a href="https://www.facebook.com/athenahime">
+                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+                </a>
+                <a href="https://www.twitter.com/lenpalcon12">
+                    <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+                </a>
+                <a href="https://www.instagram.com/enylrapalcon">
+                    <img alt="Instagram" src="http://sguru.org/wp-content/uploads/2018/01/instagram-colourful-icon.png" />
+                </a>
+                <a href="https://www.linkedin.com/in/arlynegarciapalcon/">
+                    <img alt="Linkedin" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-256.png" /> <!-- source: google images -->
+                </a>
+            </div>
+        </div>
+        <!-- Contacts section end -->
+        
+        <div class="copyright">
+            &copy; 2017 My Blog. All rights reserved.
+        </div>
+        
+    </body>
+</html>
